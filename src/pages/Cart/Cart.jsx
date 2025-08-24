@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import  { useContext } from 'react'
 import './Cart.css'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom';
@@ -21,7 +21,7 @@ const navigate = useNavigate();
         </div>
         <br/>
         <hr/>
-        {category_list.map((item,index)=>{
+        {category_list.map((item)=>{
                 if(cartItems[item._id]>0){
                   return(
                     <div>

@@ -1,8 +1,8 @@
 import './Navbar.css'
-import { assets } from '../../assets/script'
+// import { assets } from '../../assets/script'
 import { useState } from 'react'
 import { Link, Links } from 'react-router-dom';
-import { StoreContext } from '../../context/StoreContext';
+// import { StoreContext } from '../../context/StoreContext';
 
 const Navbar = ({ setShowLogin}) => {
 const [menu, setMenu] =useState("menu");

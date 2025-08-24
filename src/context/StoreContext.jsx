@@ -1,4 +1,6 @@
-import { createContext, useEffect, useState } from "react";
+/* eslint-disable react-refresh/only-export-components */
+
+import { createContext, useState } from "react";
 import {  category_list } from "../assets/script";
 
 export const StoreContext = createContext(null)

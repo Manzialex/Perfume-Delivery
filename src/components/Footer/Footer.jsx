@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { Placeholder } from 'react-bootstrap'
 const Footer = () => {
   return (
     <div className='footer' id='footer'>

@@ -1,0 +1,86 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+
+    
+}
+.Navbar h2{
+ font-size: 30px;
+ color: tomato;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+   list-style: none;
+   font-weight: bold;
+   gap: 10px;
+}
+.nav-menu li{
+    cursor: pointer;
+}
+.Navbar button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.Navbar button:hover{
+    background: tomato;
+    color: #fff;
+}
+.Navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.cart-icon{
+    position: relative;
+
+}
+.cart-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: 20px;
+}
+@media (max-width:1050px) {
+    .nav-menu{
+       display: none;
+    }
+
+}
+@media(max-width:480px){
+  .Navbar h2{
+ font-size: 25px;
+ color: tomato;
+}
+.Navbar button{
+    font-size: 14px;
+   
+}
+.cart-icon .dot{
+    min-width: 8px;
+    min-height: 8px;
+    right: 20px;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+   gap: 0px;
+
+}
+}

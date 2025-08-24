@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './Cart.css'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom';
-const cart = () => {
+const Cart = () => {
 
   const {cartItems,category_list, removeFromCart,getTotalCartAmount} = useContext(StoreContext);
   
@@ -74,4 +74,4 @@ const navigate = useNavigate();
   )
 }
 
-export default cart
+export default Cart

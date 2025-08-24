@@ -4,7 +4,7 @@ import Header from '../../components/Header/Header'
 import Explorepdts from '../../components/Explorepdts/Explorepdts';
 import ProductDisplay from '../../components/PdtDislay/productDisplay';
 import Appdownload from '../../components/Appdownload/Appdownload';
-const home = () => {
+const Home = () => {
 
   const [ category, setCategory] = useState("All");
 
@@ -18,4 +18,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

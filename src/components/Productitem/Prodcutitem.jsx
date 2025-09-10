@@ -1,6 +1,6 @@
 import React, { useContext} from 'react'
 import './Productitem.css'
-import { Prev } from 'react-bootstrap'
+//import { Prev } from 'react-bootstrap'
 import { StoreContext } from '../../context/StoreContext'
 const Productitem = ({id,name,image, price,description}) => {
 
